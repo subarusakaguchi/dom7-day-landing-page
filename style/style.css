@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: black;
+    height: 1000px;
+}
+
+/* Cabeçalho */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box;
+    z-index: 10000;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.logo {
+    margin-top: 5px;
+    width: 150px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#btnVaga {
+    color: Gold;
+    padding: 15px 10px 15px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#main {
+    margin-top: 90px;
+    background-image: linear-gradient(black, black), url(../assets/galeria/02.jpg);
+    background-blend-mode: saturation;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.89);
+}
